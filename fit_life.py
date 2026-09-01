@@ -29,7 +29,7 @@ water_needed = round((user_weight * WATER_PER_KG) / MLITTERS_TO_LITERS, 1)
 
 
 # 4. Вывод красивого результата
-print(f'Привет, {user_name}!') # Вывожу приветствие через f-строку
+print(f'Привет, {user_name}!')
 print(f'Отчет для пользователя: {user_name} ({user_age} г.)')
 print(f'Твой Индекс Массы Тела: {bmi}')
 print(f'Рекомендуемая норма воды: {water_needed} л. в день')
