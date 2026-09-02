@@ -1,7 +1,7 @@
 """Проект FitLife - MVP версия 1.0"""
 
 # Константы для расчетов
-WATER_PER_KG = 30 # миллилитров на КГ веса
+WATER_PER_KG = 30  # миллилитров на КГ веса
 MLITTERS_TO_LITERS = 1000
 
 
@@ -20,8 +20,8 @@ bmi = round(user_weight / (user_height ** 2), 1)
 water_needed = round((user_weight * WATER_PER_KG) / MLITTERS_TO_LITERS, 1)
 
 # 4. Вывод красивого результата
-print(f'''Привет, {user_name}!
+print(f"""Привет, {user_name}!
 Отчет для пользователя: {user_name} ({user_age} г.)
 Твой Индекс Массы Тела: {bmi}
 Рекомендуемая норма воды: {water_needed} л. в день
-Расчет окончен. Будьте здоровы!''')
+Расчет окончен. Будьте здоровы!""")
